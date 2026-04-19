@@ -96,7 +96,7 @@ function App() {
   <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">Get In Touch</h2>
   <div className="bg-[#1A1A1A] rounded-xl p-8 max-w-md mx-auto flex flex-col gap-4 text-center">
     <a
-      href="https://wa.me/254700000000"
+      href="https://wa.me/254705938946"
       className="bg-[#25D366] text-[#0F0F0F] font-bold text-sm py-3 rounded-lg text-center hover:bg-[#20bd5a] transition"
     >
       💬 Chat on WhatsApp
