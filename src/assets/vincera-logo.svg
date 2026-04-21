@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" role="img" aria-label="Vincera logo">
+  <rect width="200" height="200" fill="#0F0F0F"/>
+
+  
+  <g fill="#10B981">
+    <!-- Left bracket -->
+    <path d="M72 46 L72 66 L42 88 L42 108 L78 132 L90 160 L58 138 L24 114 L24 82 Z"/>
+
+    <!-- Right bracket -->
+    <path d="M128 46 L176 82 L176 114 L142 138 L110 160 L122 132 L158 108 L158 88 L128 66 Z"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="100"
+        y="184"
+        text-anchor="middle"
+        font-family="Inter, Arial, Helvetica, sans-serif"
+        font-size="22"
+        font-weight="800"
+        letter-spacing="1"
+        fill="#F5F5F5">VINCERA</text>
+</svg>

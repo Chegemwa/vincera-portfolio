@@ -1,5 +1,6 @@
 import savannaBitesImg from './assets/savanna-bites.vercel.app_.png'
 import glamourStudioImg from './assets/glamour-studio-sepia.vercel.app_.png'
+import vinceraLogo from './assets/vincera-logo.svg'
 
 function App() {
   return (
@@ -7,14 +8,17 @@ function App() {
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center min-h-screen px-6 text-center">
         <nav className="fixed top-0 left-0 right-0 flex justify-between items-center px-6 md:px-16 py-4 bg-[#0F0F0F]">
-          <span className="text-[#10B981] font-bold text-xl">Vincera</span>
-          <div className="hidden md:flex gap-8 text-[#9CA3AF] text-sm">
-            <a href="#services" className="hover:text-[#10B981] transition">Services</a>
-            <a href="#portfolio" className="hover:text-[#10B981] transition">Portfolio</a>
-            <a href="#about" className="hover:text-[#10B981] transition">About</a>
-            <a href="#contact" className="hover:text-[#10B981] transition">Contact</a>
-          </div>
-        </nav>
+  <div className="flex items-center gap-2">
+    <img src={vinceraLogo} alt="Vincera" className="h-8 w-8" />
+    <span className="text-[#10B981] font-bold text-xl">Vincera</span>
+  </div>
+  <div className="hidden md:flex gap-8 text-[#9CA3AF] text-sm">
+    <a href="#services" className="hover:text-[#10B981] transition">Services</a>
+    <a href="#portfolio" className="hover:text-[#10B981] transition">Portfolio</a>
+    <a href="#about" className="hover:text-[#10B981] transition">About</a>
+    <a href="#contact" className="hover:text-[#10B981] transition">Contact</a>
+  </div>
+</nav>
 
         <h1 className="text-4xl md:text-6xl font-bold leading-tight mt-16 max-w-3xl">
           I Build Websites <br /> For Kenyan Businesses
