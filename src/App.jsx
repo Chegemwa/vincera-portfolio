@@ -1,6 +1,6 @@
-import savannaBitesImg from './assets/savanna-bites.vercel.app_.png'
-import glamourStudioImg from './assets/glamour-studio-sepia.vercel.app_.png'
-import vinceraLogo from './assets/vincera-logo.svg'
+import savannaBitesImg from "./assets/savanna-bites.vercel.app_.png";
+import glamourStudioImg from "./assets/glamour-studio-sepia.vercel.app_.png";
+import vinceraLogo from "./assets/vincera-logo.svg";
 
 function App() {
   return (
@@ -8,23 +8,33 @@ function App() {
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center min-h-screen px-6 text-center">
         <nav className="fixed top-0 left-0 right-0 flex justify-between items-center px-6 md:px-16 py-4 bg-[#0F0F0F]">
-  <div className="flex items-center gap-2">
-    <img src={vinceraLogo} alt="Vincera" className="h-8 w-8" />
-    <span className="text-[#10B981] font-bold text-xl">Vincera</span>
-  </div>
-  <div className="hidden md:flex gap-8 text-[#9CA3AF] text-sm">
-    <a href="#services" className="hover:text-[#10B981] transition">Services</a>
-    <a href="#portfolio" className="hover:text-[#10B981] transition">Portfolio</a>
-    <a href="#about" className="hover:text-[#10B981] transition">About</a>
-    <a href="#contact" className="hover:text-[#10B981] transition">Contact</a>
-  </div>
-</nav>
+          <div className="flex items-center gap-2">
+            <img src={vinceraLogo} alt="Vincera" className="h-8 w-8" />
+            <span className="text-[#10B981] font-bold text-xl">Vincera</span>
+          </div>
+          <div className="hidden md:flex gap-8 text-[#9CA3AF] text-sm">
+            <a href="#services" className="hover:text-[#10B981] transition">
+              Services
+            </a>
+            <a href="#portfolio" className="hover:text-[#10B981] transition">
+              Portfolio
+            </a>
+            <a href="#about" className="hover:text-[#10B981] transition">
+              About
+            </a>
+            <a href="#contact" className="hover:text-[#10B981] transition">
+              Contact
+            </a>
+          </div>
+        </nav>
 
         <h1 className="text-4xl md:text-6xl font-bold leading-tight mt-16 max-w-3xl">
-          I Build Websites <br /> For Kenyan Businesses
+          Your Business Deserves <br /> A Great Website. <br /> I Build Them To
+          Work.
         </h1>
         <p className="text-[#9CA3AF] text-base md:text-lg mt-4 max-w-xs md:max-w-xl">
-          Fast, mobile-friendly websites that help your business get found online
+          Fast, mobile-friendly websites that help your business get found
+          online
         </p>
 
         <a
@@ -36,30 +46,50 @@ function App() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="px-6 md:px-16 py-16">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">What I Build</h2>
-        <div className="flex flex-col md:flex-row gap-4 max-w-4xl mx-auto">
-          <div className="bg-[#1A1A1A] rounded-xl p-5 flex-1">
-            <div className="text-3xl mb-3">🌐</div>
-            <h3 className="text-base font-bold mb-1">Business Websites</h3>
-            <p className="text-[#9CA3AF] text-sm">Custom websites that represent your brand professionally</p>
+      <section id="services" className="px-6 md:px-16 py-24">
+        <h2 className="text-2xl md:text-4xl font-bold text-center mb-4">
+          What I Build
+        </h2>
+        <p className="text-[#9CA3AF] text-center text-base md:text-lg mb-12 max-w-xl mx-auto">
+          Every site I build is fast, secure, and designed to represent your
+          business properly — on any device, anywhere in the world.
+        </p>
+        <div className="flex flex-col md:flex-row gap-6 max-w-5xl mx-auto">
+          <div className="bg-[#1A1A1A] rounded-xl p-8 flex-1 border border-[#2A2A2A] hover:border-[#10B981] transition">
+            <div className="text-4xl mb-4">🌐</div>
+            <h3 className="text-lg font-bold mb-2">Business Websites</h3>
+            <p className="text-[#9CA3AF] text-sm leading-relaxed">
+              Custom websites built to represent your brand professionally.
+              Clean design, clear messaging, and a layout that turns visitors
+              into customers.
+            </p>
           </div>
-          <div className="bg-[#1A1A1A] rounded-xl p-5 flex-1">
-            <div className="text-3xl mb-3">🛡️</div>
-            <h3 className="text-base font-bold mb-1">Secure & Reliable</h3>
-            <p className="text-[#9CA3AF] text-sm">Built with security best practices from the ground up</p>
+          <div className="bg-[#1A1A1A] rounded-xl p-8 flex-1 border border-[#2A2A2A] hover:border-[#10B981] transition">
+            <div className="text-4xl mb-4">🛡️</div>
+            <h3 className="text-lg font-bold mb-2">Secure & Reliable</h3>
+            <p className="text-[#9CA3AF] text-sm leading-relaxed">
+              Security isn't an afterthought — it's built in from the start.
+              With a background in cybersecurity, I make sure your site is
+              protected and dependable.
+            </p>
           </div>
-          <div className="bg-[#1A1A1A] rounded-xl p-5 flex-1">
-            <div className="text-3xl mb-3">📱</div>
-            <h3 className="text-base font-bold mb-1">Mobile Friendly</h3>
-            <p className="text-[#9CA3AF] text-sm">Designed to work perfectly on any device</p>
+          <div className="bg-[#1A1A1A] rounded-xl p-8 flex-1 border border-[#2A2A2A] hover:border-[#10B981] transition">
+            <div className="text-4xl mb-4">📱</div>
+            <h3 className="text-lg font-bold mb-2">Mobile First</h3>
+            <p className="text-[#9CA3AF] text-sm leading-relaxed">
+              Most of your customers are on their phones. Every site I build
+              looks and works perfectly on any screen — mobile, tablet, or
+              desktop.
+            </p>
           </div>
         </div>
       </section>
 
       {/* Portfolio Section */}
       <section id="portfolio" className="px-6 md:px-16 py-16">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">My Work</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">
+          My Work
+        </h2>
         <div className="flex flex-col md:flex-row gap-4 max-w-4xl mx-auto">
           {/* Savanna Bites */}
           <a
@@ -75,7 +105,9 @@ function App() {
             />
             <div className="p-5">
               <h3 className="text-base font-bold mb-1">Savanna Bites</h3>
-              <p className="text-[#9CA3AF] text-sm">Restaurant website with menu and booking page</p>
+              <p className="text-[#9CA3AF] text-sm">
+                Restaurant website with menu and booking page
+              </p>
             </div>
           </a>
 
@@ -93,7 +125,9 @@ function App() {
             />
             <div className="p-5">
               <h3 className="text-base font-bold mb-1">Glamour Studio</h3>
-              <p className="text-[#9CA3AF] text-sm">Salon website with services and contact form</p>
+              <p className="text-[#9CA3AF] text-sm">
+                Salon website with services and contact form
+              </p>
             </div>
           </a>
         </div>
@@ -101,18 +135,28 @@ function App() {
 
       {/* About Section */}
       <section id="about" className="px-6 md:px-16 py-16">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">About Me</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">
+          About Me
+        </h2>
         <div className="bg-[#1A1A1A] rounded-xl p-8 max-w-2xl mx-auto">
           <p className="text-[#9CA3AF] text-sm md:text-base leading-relaxed">
-            I'm Victor, a web developer based in Nairobi, Kenya. I'm currently studying Information Systems at USIU-Africa and building Vincera to help Kenyan businesses establish a strong online presence. I build fast, mobile-friendly websites that are secure and easy to use.
+            I'm Victor, a web developer and founder of Vincera. I study
+            Information Systems at USIU-Africa with a major in Cybersecurity,
+            and I build fast, secure, mobile-friendly websites for businesses
+            that want a serious online presence. Wherever you are, if you need a
+            website that works — I'm the one to build it.
           </p>
-          <p className="text-[#10B981] font-bold text-sm mt-4">📍 Nairobi, Kenya</p>
+          <p className="text-[#10B981] font-bold text-sm mt-4">
+            📍 Nairobi, Kenya
+          </p>
         </div>
       </section>
 
       {/* Contact Section */}
       <section id="contact" className="px-6 md:px-16 py-16">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">Get In Touch</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">
+          Get In Touch
+        </h2>
         <div className="bg-[#1A1A1A] rounded-xl p-8 max-w-md mx-auto flex flex-col gap-4 text-center">
           <a
             href="https://wa.me/254705938946"
@@ -132,7 +176,7 @@ function App() {
         © 2026 Vincera
       </footer>
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
