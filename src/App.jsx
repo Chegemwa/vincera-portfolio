@@ -140,11 +140,12 @@ function App() {
         </h2>
         <div className="bg-[#1A1A1A] rounded-xl p-8 max-w-2xl mx-auto">
           <p className="text-[#9CA3AF] text-sm md:text-base leading-relaxed">
-            I'm Victor, a web developer and founder of Vincera. I study
-            Information Systems at USIU-Africa with a major in Cybersecurity,
-            and I build fast, secure, mobile-friendly websites for businesses
-            that want a serious online presence. Wherever you are, if you need a
-            website that works — I'm the one to build it.
+            I'm Victor, founder of Vincera. I build fast, secure, and
+            mobile-friendly websites for businesses that want a serious online
+            presence. With a background in cybersecurity, I make sure every site
+            I build is not just good looking but protected and dependable.
+            Wherever you are, if you need a website that works, I'm the one to
+            build it.
           </p>
           <p className="text-[#10B981] font-bold text-sm mt-4">
             📍 Nairobi, Kenya
